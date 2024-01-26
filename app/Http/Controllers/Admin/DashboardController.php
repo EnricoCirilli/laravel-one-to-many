@@ -14,4 +14,4 @@ public function index(){return view('admin.dashboard');
 public function index (){
     return view('nomi.index');
 }
-Route::get('/nomi',[NomeController::class,'index'])->name('nomi.index')
+Route::get('/nomi',[NomeController::class,'index'])->name('nomi.index');
