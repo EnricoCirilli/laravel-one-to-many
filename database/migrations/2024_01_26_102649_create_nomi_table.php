@@ -16,6 +16,7 @@ return new class extends Migration
         Schema::create('nomi', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
+            $table->string('nome');
         });
     }
 
