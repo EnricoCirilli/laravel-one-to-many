@@ -8,3 +8,4 @@ class NomeController extends Controller
 {
     //
 }
+$nomi = Nome::all()
